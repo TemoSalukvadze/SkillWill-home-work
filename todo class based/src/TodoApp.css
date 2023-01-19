@@ -1,0 +1,61 @@
+
+
+.todo-app { 
+  display: grid;
+gap: 10px;
+text-align: center;
+padding: 10px;
+}
+.header-box{
+  grid-column: 1 / span 2;
+grid-row: 1;
+}
+
+.input-group{
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+.input-text {  
+  width: 50%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  background-color: rgb(225, 231, 233);
+  font-size: 20px;
+  resize: none;
+}
+.button-box{
+  grid-column: 1 / span 2;
+grid-row: 3;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.button {
+  width: 10%;
+  height: 50px;
+}
+
+.todolist-box {
+  grid-column: 1 ;
+grid-row: 4;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  gap: 40px;
+  width: auto;
+  height: 100%;
+  margin-left: 320px;
+}
+.donelist-box {
+  grid-column: 2 ;
+grid-row: 4;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  gap: 40px;
+  width: auto;
+  height: 100%;
+  margin-right: 300px;
+}
